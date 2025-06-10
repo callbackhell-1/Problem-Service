@@ -3,7 +3,7 @@ const { problemController } = require('../../controllers');
 
 const problemRouter = express.Router();
 
-problemRouter.get('/ping', problemController.pingproblemController);
+problemRouter.get('/ping', problemController.pingProblemController);
 
 problemRouter.get('/:id', problemController.getProblem);
 
